@@ -1,0 +1,148 @@
+.hidden { 
+    display: none; 
+}
+
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2{
+    margin: 40px;
+}
+
+.icon-container {
+    text-align: center;
+    display: flex;
+    margin: 30px;
+}
+
+.icon-container div {
+    width: 100%;
+}
+
+
+#FB-emojii-1{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#FB-emojii-1:hover, #FB-emojii-1:focus, #FB-emojii-1:active{
+    box-shadow: 0 20px 20px -20px rgba(0,0,0,0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+
+#FB-emojii-2{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#FB-emojii-2:hover, #FB-emojii-2:focus, #FB-emojii-2:active{
+    box-shadow: 0 20px 20px -20px rgba(0,0,0,0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.5);
+}
+
+
+#FB-emojii-3{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+}
+#FB-emojii-3:hover, #FB-emojii-3:focus, #FB-emojii-3:active{
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+
+
+#heart4{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#heart4:hover, #heart4:focus, #heart4:active{
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+#tear{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#tear:hover, #tear:focus, #tear:active{
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+#expression6{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#expression6:hover, #expression6:focus, #expression6:active{
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+#FB-emojii-7{
+    transition: all 0.5s ease;
+    transform-origin:0%;
+}
+
+#FB-emojii-7:hover{
+    transform: rotate(30deg);
+}
+
